@@ -1,0 +1,35 @@
+/* Scroll suave para toda a página */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Utilitários de Animação */
+.reveal-up, .reveal-left, .reveal-right {
+    opacity: 0;
+    transition: all 0.8s ease-out;
+}
+
+.reveal-up { transform: translateY(30px); }
+.reveal-left { transform: translateX(-30px); }
+.reveal-right { transform: translateX(30px); }
+
+/* Classe que ativa a animação */
+.active {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* Personalização da Barra de Rolagem */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #a78bfa;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #7c3aed;
+}
