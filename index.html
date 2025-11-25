@@ -6,11 +6,8 @@
     <title>3°B DS - Feira Tecnológica</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
-    
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
-    
     <link rel="stylesheet" href="estilo.css">
 
     <script>
@@ -27,36 +24,59 @@
                             dark: '#5b21b6',
                             light: '#f3e8ff'
                         }
+                    },
+                    animation: {
+                        'float': 'float 6s ease-in-out infinite',
+                        'zoom': 'zoomEffect 20s infinite alternate',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-20px)' },
+                        },
+                        zoomEffect: {
+                            '0%': { transform: 'scale(1)' },
+                            '100%': { transform: 'scale(1.15)' },
+                        }
                     }
                 }
             }
         }
     </script>
+
+    <style>
+        /* CSS extra para garantir suavidade nas fotos */
+        .photo-glow {
+            box-shadow: 0 20px 50px -12px rgba(124, 58, 237, 0.5); /* Sombra roxa bonita */
+        }
+    </style>
 </head>
 <body class="bg-white text-gray-800 antialiased overflow-x-hidden">
 
-    <header class="fixed top-0 w-full z-50 bg-purple-900 backdrop-blur-md border-b border-gray-100 transition-all" id="navbar">
+    <header class="fixed top-0 w-full z-50 bg-purple-900/90 backdrop-blur-md border-b border-purple-800 transition-all shadow-lg" id="navbar">
         <div class="container mx-auto px-6 h-16 flex justify-between items-center">
             <div class="flex items-center gap-2">
-                <div class="w-8 h-8 bg-brand-purple rounded flex items-center justify-center text-white font-bold font-mono">
+                <div class="w-8 h-8 bg-brand-purple rounded flex items-center justify-center text-white font-bold font-mono border border-white/20">
                     DS
                 </div>
                 <span class="font-bold text-lg tracking-tight text-white">SENAI</span>
             </div>
 
-            <nav class="hidden md:flex gap-8 text-sm font-medium text-white">
-                <a href="#sobre" class="hover:text-brand-purple transition-colors">Sobre</a>
-                <a href="#projetos" class="hover:text-brand-purple transition-colors">Projetos</a>
-                <a href="#instrutores" class="hover:text-brand-purple transition-colors">Instrutores</a>
-                <a href="#alunos" class="hover:text-brand-purple transition-colors">Alunos</a>
+            <nav class="hidden md:flex gap-8 text-sm font-medium text-gray-200">
+                <a href="#inicio" class="hover:text-white transition-colors">Início</a>
+                <a href="#sobre" class="hover:text-white transition-colors">Sobre</a>
+                <a href="#projetos" class="hover:text-white transition-colors">Projetos</a>
+                <a href="#instrutores" class="hover:text-white transition-colors">Instrutores</a>
+                <a href="#alunos" class="hover:text-white transition-colors">Alunos</a>
             </nav>
 
-            <button id="menu-btn" class="md:hidden text-2xl text-gray-700">
+            <button id="menu-btn" class="md:hidden text-2xl text-white">
                 <i class="ph ph-list"></i>
             </button>
         </div>
 
-        <div id="mobile-menu" class="hidden absolute top-16 left-0 w-full bg-white border-b border-gray-100 p-4 flex-col gap-4 shadow-lg md:hidden">
+        <div id="mobile-menu" class="hidden absolute top-16 left-0 w-full bg-purple-900 border-b border-purple-800 p-4 flex-col gap-4 shadow-lg md:hidden text-white">
+            <a href="#inicio" class="block font-medium hover:text-brand-purple">Início</a>
             <a href="#sobre" class="block font-medium hover:text-brand-purple">Sobre</a>
             <a href="#projetos" class="block font-medium hover:text-brand-purple">Projetos</a>
             <a href="#instrutores" class="block font-medium hover:text-brand-purple">Instrutores</a>
@@ -64,41 +84,65 @@
         </div>
     </header>
 
-    <section id="sobre" class="pt-32 pb-20 px-6 relative overflow-hidden">
+    <section id="inicio" class="relative h-screen flex items-center justify-center overflow-hidden bg-gray-100">
+        
+        <div class="absolute inset-0 z-0 overflow-hidden">
+            <img src="fotosala.png" 
+                 alt="Foto da Sala 3B DS" 
+                 class="w-full h-full object-cover animate-zoom">
+            
+            <div class="absolute inset-0 bg-white/80 backdrop-blur-[2px]"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-white/50"></div>
+        </div>
+
+        <div class="relative z-10 text-center px-4 reveal-up">
+            <p class="text-gray-500 font-medium mb-4 tracking-widest uppercase text-sm font-mono">Feira Tecnológica 2025</p>
+            
+            <h1 class="text-6xl md:text-8xl lg:text-9xl font-mono font-bold text-gray-900 tracking-tighter hover:scale-105 transition-transform duration-500 cursor-default drop-shadow-sm">
+                <span class="text-brand-purple">&lt;</span> 3°B DS <span class="text-brand-purple">/&gt;</span>
+            </h1>
+            
+            <p class="mt-6 text-xl text-gray-700 max-w-2xl mx-auto font-medium">
+                Desenvolvimento de Sistemas • SENAI
+            </p>
+
+            <div class="absolute bottom-[-15vh] left-1/2 -translate-x-1/2 animate-bounce">
+                <a href="#sobre" class="text-brand-purple text-3xl hover:text-brand-dark"><i class="ph ph-arrow-down"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="py-20 px-6 bg-white">
         <div class="container mx-auto grid md:grid-cols-2 gap-12 items-center">
             
             <div class="reveal-left">
-                <span class="inline-block py-1 px-3 rounded-full bg-brand-light text-brand-purple text-xs font-mono font-bold mb-4">
-                    TURMA 2025
-                </span>
+                <div class="inline-flex items-center gap-2 mb-4">
+                    <div class="w-8 h-1 bg-brand-purple rounded"></div>
+                    <span class="text-brand-purple font-bold uppercase text-sm tracking-wider">Contexto</span>
+                </div>
+
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">
+                    Sobre a nossa <span class="text-brand-purple">Jornada</span>
+                </h2>
                 
-                <h1 class="text-5xl md:text-6xl font-mono font-bold text-gray-900 mb-6">
-                    <span class="text-brand-purple">&lt;</span> 3ºB DS <span class="text-brand-purple">/&gt;</span>
-                </h1>
-                
-                <p class="text-lg text-gray-600 mb-8 leading-relaxed">
-                    Bem-vindos à nossa vitrine da <strong>Feira Tecnológica</strong>. 
-                    Somos a turma de Desenvolvimento de Sistemas, transformando café em código e ideias em soluções inovadoras.
-                    Aqui apresentamos nossos TCCs e projetos finais.
+                <p class="text-lg text-gray-600 mb-6 leading-relaxed text-justify">
+                    Bem-vindos à vitrine digital da nossa turma. Somos estudantes de 
+                    <strong>Desenvolvimento de Sistemas</strong>, dedicados a transformar linhas de código em soluções reais que impactam o dia a dia.
+                </p>
+                <p class="text-gray-600 mb-8 leading-relaxed text-justify">
+                    Nesta feira, apresentamos o resultado de meses de trabalho em equipe: desde a lógica de programação, passando pela modelagem de dados, até a interface final do usuário.
                 </p>
                 
-                <a href="#projetos" class="inline-flex items-center gap-2 bg-brand-purple text-white px-6 py-3 rounded-lg font-medium hover:bg-brand-dark transition-all shadow-lg hover:shadow-brand-purple/30">
-                    Ver Projetos <i class="ph ph-arrow-down"></i>
+                <a href="#projetos" class="inline-flex items-center gap-2 bg-gray-900 text-white px-6 py-3 rounded-lg font-medium hover:bg-brand-purple transition-all shadow-lg hover:shadow-brand-purple/30">
+                    Ver Projetos <i class="ph ph-arrow-right"></i>
                 </a>
             </div>
 
-            <div class="relative reveal-right">
-                <div class="absolute -inset-4 bg-gradient-to-tr from-brand-purple to-blue-500 rounded-2xl opacity-20 blur-lg"></div>
-                
-                <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white aspect-video bg-gray-200 group">
-                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80" 
-                         alt="Foto da Turma 3ºB DS" 
-                         class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
-                    
-                    <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/80 to-transparent p-6">
-                        <p class="text-white font-mono text-sm">class 3B_DS extends Students { ... }</p>
-                    </div>
-                </div>
+            <div class="relative reveal-right h-[400px]">
+                <div class="absolute -inset-4 bg-brand-light rounded-2xl -z-10 transform rotate-3"></div>
+                <img src="fotosala.png" 
+                     alt="Trabalho em equipe" 
+                     class="w-full h-full object-cover rounded-2xl shadow-xl grayscale hover:grayscale-0 transition-all duration-500">
             </div>
         </div>
     </section>
@@ -116,8 +160,8 @@
                     <div class="w-14 h-14 bg-brand-light rounded-lg flex items-center justify-center text-brand-purple text-2xl mb-4 group-hover:scale-110 transition-transform">
                         <i class="ph ph-robot"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-2">CyberBot</h3>
-                    <p class="text-gray-500 text-sm mb-4">Automação com IA.</p>
+                    <h3 class="text-xl font-bold mb-2">RePensei</h3>
+                    <p class="text-gray-500 text-sm mb-4">aqui</p>
                     <button class="text-brand-purple font-semibold text-sm flex items-center gap-1 hover:gap-2 transition-all">Ver mais <i class="ph ph-arrow-right"></i></button>
                 </div>
 
@@ -125,8 +169,8 @@
                     <div class="w-14 h-14 bg-blue-50 rounded-lg flex items-center justify-center text-blue-600 text-2xl mb-4 group-hover:scale-110 transition-transform">
                         <i class="ph ph-globe"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-2">EcoWeb</h3>
-                    <p class="text-gray-500 text-sm mb-4">Plataforma sustentável.</p>
+                    <h3 class="text-xl font-bold mb-2">Redaction</h3>
+                    <p class="text-gray-500 text-sm mb-4">aqui</p>
                     <button class="text-brand-purple font-semibold text-sm flex items-center gap-1 hover:gap-2 transition-all">Ver mais <i class="ph ph-arrow-right"></i></button>
                 </div>
 
@@ -134,8 +178,8 @@
                     <div class="w-14 h-14 bg-green-50 rounded-lg flex items-center justify-center text-green-600 text-2xl mb-4 group-hover:scale-110 transition-transform">
                         <i class="ph ph-leaf"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-2">AgroTech</h3>
-                    <p class="text-gray-500 text-sm mb-4">IoT no campo.</p>
+                    <h3 class="text-xl font-bold mb-2">Ponto&Vírgula</h3>
+                    <p class="text-gray-500 text-sm mb-4">aqui</p>
                     <button class="text-brand-purple font-semibold text-sm flex items-center gap-1 hover:gap-2 transition-all">Ver mais <i class="ph ph-arrow-right"></i></button>
                 </div>
 
@@ -143,8 +187,8 @@
                     <div class="w-14 h-14 bg-orange-50 rounded-lg flex items-center justify-center text-orange-600 text-2xl mb-4 group-hover:scale-110 transition-transform">
                         <i class="ph ph-shopping-cart"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-2">MarketPlace</h3>
-                    <p class="text-gray-500 text-sm mb-4">E-commerce local.</p>
+                    <h3 class="text-xl font-bold mb-2">Ortofix</h3>
+                    <p class="text-gray-500 text-sm mb-4">aqui</p>
                     <button class="text-brand-purple font-semibold text-sm flex items-center gap-1 hover:gap-2 transition-all">Ver mais <i class="ph ph-arrow-right"></i></button>
                 </div>
 
@@ -152,8 +196,8 @@
                     <div class="w-14 h-14 bg-red-50 rounded-lg flex items-center justify-center text-red-600 text-2xl mb-4 group-hover:scale-110 transition-transform">
                         <i class="ph ph-heartbeat"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-2">HealthLife</h3>
-                    <p class="text-gray-500 text-sm mb-4">Gestão de saúde.</p>
+                    <h3 class="text-xl font-bold mb-2">MathMagic</h3>
+                    <p class="text-gray-500 text-sm mb-4">aqui</p>
                     <button class="text-brand-purple font-semibold text-sm flex items-center gap-1 hover:gap-2 transition-all">Ver mais <i class="ph ph-arrow-right"></i></button>
                 </div>
 
@@ -161,20 +205,17 @@
                     <div class="w-14 h-14 bg-indigo-50 rounded-lg flex items-center justify-center text-indigo-600 text-2xl mb-4 group-hover:scale-110 transition-transform">
                         <i class="ph ph-game-controller"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-2">PixelGame</h3>
-                    <p class="text-gray-500 text-sm mb-4">Jogo educativo 2D.</p>
+                    <h3 class="text-xl font-bold mb-2">TerapIA</h3>
+                    <p class="text-gray-500 text-sm mb-4">aqui</p>
                     <button class="text-brand-purple font-semibold text-sm flex items-center gap-1 hover:gap-2 transition-all">Ver mais <i class="ph ph-arrow-right"></i></button>
                 </div>
-
-                 <div class="md:col-span-2 xl:col-span-2 bg-gradient-to-r from-brand-purple to-brand-dark rounded-xl p-6 shadow-lg text-white flex items-center justify-between hover:shadow-2xl transition-all group reveal-up">
-                    <div>
-                        <div class="flex items-center gap-3 mb-2">
-                            <i class="ph ph-lightning text-3xl text-yellow-300"></i>
-                            <h3 class="text-xl font-bold">Projeto Especial</h3>
-                        </div>
-                        <p class="text-white/80 text-sm">Sistema de gestão escolar integrado.</p>
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all group reveal-up">
+                    <div class="w-14 h-14 bg-indigo-50 rounded-lg flex items-center justify-center text-indigo-600 text-2xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="ph ph-game-controller"></i>
                     </div>
-                    <button class="bg-white text-brand-purple px-4 py-2 rounded-lg text-sm font-bold hover:bg-gray-100 transition-colors">Ver mais</button>
+                    <h3 class="text-xl font-bold mb-2">GramaticExplorer</h3>
+                    <p class="text-gray-500 text-sm mb-4">aqui</p>
+                    <button class="text-brand-purple font-semibold text-sm flex items-center gap-1 hover:gap-2 transition-all">Ver mais <i class="ph ph-arrow-right"></i></button>
                 </div>
 
             </div>
@@ -182,42 +223,42 @@
     </section>
 
     <section id="instrutores" class="py-20 bg-white">
-    <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-center mb-12 text-gray-900 reveal-up">Instrutores</h2>
-        
-        <div class="flex flex-col md:flex-row justify-center gap-10 max-w-4xl mx-auto">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900 reveal-up">Instrutores</h2>
             
-            <div class="flex-1 bg-white border border-gray-100 rounded-2xl p-6 text-center shadow-lg hover:border-brand-purple transition-all reveal-left group">
-                <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-brand-light p-1">
-                    <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&w=300&q=80" class="w-full h-full object-cover rounded-full transition-transform group-hover:scale-110" alt="Instrutor">
-                </div>
-                <h3 class="text-xl font-bold">Prof. Carlos</h3>
-                <p class="text-brand-purple font-mono text-sm mb-4">Backend & Banco de Dados</p>
+            <div class="flex flex-col md:flex-row justify-center gap-10 max-w-4xl mx-auto">
                 
-                <div class="flex justify-center gap-4 border-t border-gray-100 pt-4">
-                    <a href="#" class="text-gray-400 hover:text-[#0077b5] transition-colors" title="LinkedIn"><i class="ph ph-linkedin-logo text-2xl"></i></a>
-                    <a href="#" class="text-gray-400 hover:text-black transition-colors" title="GitHub"><i class="ph ph-github-logo text-2xl"></i></a>
-                    <a href="#" class="text-gray-400 hover:text-[#E1306C] transition-colors" title="Instagram"><i class="ph ph-instagram-logo text-2xl"></i></a>
+                <div class="flex-1 bg-white border border-gray-100 rounded-2xl p-6 text-center shadow-lg hover:border-brand-purple transition-all reveal-left group">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-brand-light p-1">
+                        <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&w=300&q=80" class="w-full h-full object-cover rounded-full transition-transform group-hover:scale-110" alt="Instrutor">
+                    </div>
+                    <h3 class="text-xl font-bold">Professor João Paulo</h3>
+                    <p class="text-brand-purple font-mono text-sm mb-4">Backend & Banco de Dados</p>
+                    
+                    <div class="flex justify-center gap-4 border-t border-gray-100 pt-4">
+                        <a href="#" class="text-gray-400 hover:text-[#0077b5] transition-colors" title="LinkedIn"><i class="ph ph-linkedin-logo text-2xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-black transition-colors" title="GitHub"><i class="ph ph-github-logo text-2xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-[#E1306C] transition-colors" title="Instagram"><i class="ph ph-instagram-logo text-2xl"></i></a>
+                    </div>
                 </div>
+
+                <div class="flex-1 bg-white border border-gray-100 rounded-2xl p-6 text-center shadow-lg hover:border-brand-purple transition-all reveal-right group">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-brand-light p-1">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80" class="w-full h-full object-cover rounded-full transition-transform group-hover:scale-110" alt="Instrutora">
+                    </div>
+                    <h3 class="text-xl font-bold">Professor Rafael Ribas</h3>
+                    <p class="text-brand-purple font-mono text-sm mb-4">Frontend & Mobile</p>
+
+                    <div class="flex justify-center gap-4 border-t border-gray-100 pt-4">
+                        <a href="#" class="text-gray-400 hover:text-[#0077b5] transition-colors" title="LinkedIn"><i class="ph ph-linkedin-logo text-2xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-black transition-colors" title="GitHub"><i class="ph ph-github-logo text-2xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-[#E1306C] transition-colors" title="Instagram"><i class="ph ph-instagram-logo text-2xl"></i></a>
+                    </div>
+                </div>
+
             </div>
-
-            <div class="flex-1 bg-white border border-gray-100 rounded-2xl p-6 text-center shadow-lg hover:border-brand-purple transition-all reveal-right group">
-                <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-brand-light p-1">
-                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80" class="w-full h-full object-cover rounded-full transition-transform group-hover:scale-110" alt="Instrutora">
-                </div>
-                <h3 class="text-xl font-bold">Profa. Ana</h3>
-                <p class="text-brand-purple font-mono text-sm mb-4">Frontend & Mobile</p>
-
-                <div class="flex justify-center gap-4 border-t border-gray-100 pt-4">
-                    <a href="#" class="text-gray-400 hover:text-[#0077b5] transition-colors" title="LinkedIn"><i class="ph ph-linkedin-logo text-2xl"></i></a>
-                    <a href="#" class="text-gray-400 hover:text-black transition-colors" title="GitHub"><i class="ph ph-github-logo text-2xl"></i></a>
-                    <a href="#" class="text-gray-400 hover:text-[#E1306C] transition-colors" title="Instagram"><i class="ph ph-instagram-logo text-2xl"></i></a>
-                </div>
-            </div>
-
         </div>
-    </div>
-</section>
+    </section>
 
     <section id="alunos" class="py-20 bg-gray-50 border-t border-gray-200">
         <div class="container mx-auto px-6">
