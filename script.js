@@ -67,9 +67,10 @@ document.addEventListener('DOMContentLoaded', () => {
         youtubeLink: 'https://youtube.com/watch?v=pontovirgula_pitch',
         qrcodeUrl: 'assets/qrcodes/pontovirgula_qr.png',
         team: [
-            { name: 'Mariana Pires', role: 'Product Owner', photo: 'assets/team/mariana.jpg' },
-            { name: 'Roberto Mendes', role: 'Data Scientist', photo: 'assets/team/roberto.jpg' },
-            { name: 'Sofia Nogueira', role: 'Fullstack Dev', photo: 'assets/team/sofia.jpg' },
+            { name: 'Heitor Schutz', role: 'TechLead', photo: 'sala/heitor.jpg' },
+            { name: 'Lígia Costa', role: 'Scrum Master', photo: 'sala/ligia.jpg' },
+            { name: 'Paulo Henrique', role: 'Programador Front-end', photo: 'sala/paulo.jpg' },
+            { name: 'Pedro Vitor', role: 'Programador Back-end', photo: 'sala/pedrov.jfif' },
         ]
     },
     {
