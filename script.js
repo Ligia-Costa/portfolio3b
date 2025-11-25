@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { name: 'Heitor Schutz', role: 'TechLead', photo: 'sala/heitor.jpg' },
             { name: 'Lígia Costa', role: 'Scrum Master', photo: 'sala/ligia.jpg' },
             { name: 'Paulo Henrique', role: 'Programador Front-end', photo: 'sala/paulo.jpg' },
-            { name: 'Pedro Vitor', role: 'Programador Back-end', photo: 'sala/pedrov.jfif' },
+            { name: 'Pedro Vitor', role: 'Programador Back-end', photo: 'sala/pedro.jfif' },
         ]
     },
     {
