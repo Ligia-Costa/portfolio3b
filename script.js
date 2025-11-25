@@ -63,8 +63,8 @@ document.addEventListener('DOMContentLoaded', () => {
         mascotUrl: 'assets/mascotes/mascote_pontovirgula.png',
         shortDesc: 'Plataforma de troca de experiências e mentoria entre veteranos e calouros universitários.',
         longDesc: 'Conecta estudantes do ensino médio a veteranos universitários, oferecendo sessões de mentoria e troca de experiências para auxiliar na escolha profissional e na adaptação à vida acadêmica.',
-        projectLink: 'https://pontovirgula.com',
-        youtubeLink: 'https://youtube.com/watch?v=pontovirgula_pitch',
+        projectLink: 'https://pontoevirgula.vercel.app',
+        youtubeLink: 'https://youtu.be/B-rJNl3w9Vc',
         qrcodeUrl: 'assets/qrcodes/pontovirgula_qr.png',
         team: [
             { name: 'Heitor Schutz', role: 'TechLead', photo: 'sala/heitor.jpg' },
