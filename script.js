@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
         longDesc: 'Conecta estudantes do ensino médio a veteranos universitários, oferecendo sessões de mentoria e troca de experiências para auxiliar na escolha profissional e na adaptação à vida acadêmica.',
         projectLink: 'https://pontoevirgula.vercel.app',
         youtubeLink: 'https://youtu.be/B-rJNl3w9Vc',
-        qrcodeUrl: 'assets/qrcodes/pontovirgula_qr.png',
+        qrcodeUrl: 'qrcode/qrPontoevirgula.png',
         team: [
             { name: 'Heitor Schutz', role: 'TechLead', photo: 'sala/heitor.jpg' },
             { name: 'Lígia Costa', role: 'Scrum Master', photo: 'sala/ligia.jpg' },
