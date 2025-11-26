@@ -62,8 +62,8 @@ document.addEventListener('DOMContentLoaded', () => {
             youtubeLink: 'https://youtu.be/B-rJNl3w9Vc',
             qrcodeUrl: 'qrcode/qrPontoevirgula.png',
             team: [
-                { name: 'Heitor Schutz', role: 'Tech Lead', photo: 'sala/heitor.jpg' },
-                { name: 'Lígia Costa', role: 'Scrum Master', photo: 'sala/ligia.jpg' },
+                { name: 'Heitor Schutz', role: 'Tech Lead', photo: 'sala/heitor.png' },
+                { name: 'Lígia Costa', role: 'Scrum Master', photo: 'sala/ligia.png' },
                 { name: 'Paulo Henrique', role: 'Front-end', photo: 'sala/paulo.jpg' },
                 { name: 'Pedro Vitor', role: 'Back-end', photo: 'sala/pedro.jfif' },
             ]
