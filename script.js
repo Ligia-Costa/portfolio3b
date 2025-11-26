@@ -98,14 +98,15 @@ document.addEventListener('DOMContentLoaded', () => {
         logoUrl: 'assets/logos/mathmagic.png',
         mascotUrl: 'assets/mascotes/mascote_mathmagic.png',
         shortDesc: 'Gerador inteligente de problemas matemáticos personalizados, com foco em raciocínio lógico.',
-        longDesc: 'Utiliza IA para criar problemas matemáticos contextualizados e desafiadores, adaptados ao nível de dificuldade do usuário, focando em melhorar o raciocínio lógico e a preparação para olimpíadas de matemática.',
+        longDesc: 'O MathMagic é uma plataforma web full-stack gamificada, desenvolvida com o intuito de mitigar a desmotivação e as lacunas de aprendizado nas quatro operações matemáticas básicas (Adição, Subtração, Multiplicação e Divisão) no Ensino Fundamental. O problema central reside na dificuldade dos educadores em obter um diagnóstico imediato e preciso do desempenho individual e coletivo dos alunos para a intervenção pedagógica eficaz. O objetivo do projeto foi conceber e implementar uma solução digital moderna que transformasse a prática matemática em uma jornada lúdica e engajadora. O público-alvo é tripartite: Alunos (usuários finais), Professores (gestores de salas e conteúdo) e Administradores (gestores de trilhas globais).',
         projectLink: 'https://mathmagic.tech',
         youtubeLink: 'https://youtube.com/watch?v=mathmagic_pitch',
         qrcodeUrl: 'assets/qrcodes/mathmagic_qr.png',
         team: [
-            { name: 'Gustavo Paiva', role: 'Scrum Master', photo: 'assets/team/gustavo.jpg' },
-            { name: 'Isabela Rocha', role: 'Fullstack Dev', photo: 'assets/team/isabela.jpg' },
-            { name: 'Thiago Farias', role: 'Front-End', photo: 'assets/team/thiago.jpg' },
+            { name: 'Richard', role: 'Scrum Master', photo: 'sala/richard.jpg' },
+            { name: 'Maria Julia', role: 'Tech Lead e Programadora Front-end', photo: 'sala/maju.jpg' },
+            { name: 'João Pedro', role: 'Programador Front-End', photo: 'sala/jp.jpg' },
+            { name: 'Luis Felipe', role: 'Programador Back-end', photo: 'sala/luisf.jpg' },
         ]
     },
     {
