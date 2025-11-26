@@ -101,6 +101,21 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
         },
         {
+            id: 'fewit',
+            name: 'Fewit',
+            logoUrl: 'mascote/fewit.png', 
+            mascotUrl: 'mascote/fewit.png', 
+            shortDesc: 'Fewit slogan aqui',
+            longDesc: 'descrição do Fewit aqui',
+            projectLink: 'https://fewit.vercel.app',
+            youtubeLink: '#',
+            qrcodeUrl: 'qrcode/qrFewit.png',
+            team: [
+                { name: 'Gabriel Camargo', role: 'Tech Lead', photo: 'sala/camargo.png' },
+                { name: 'Maria Isabela', role: 'Product Owner', photo: 'sala/isa.png' },
+            ]
+        },
+        {
             id: 'gramaticexplorer',
             name: 'GramaticExplorer',
             logoUrl: 'mascote/GramaticXplorer.png', 
