@@ -45,14 +45,15 @@ document.addEventListener('DOMContentLoaded', () => {
         logoUrl: 'assets/logos/redaction.png',
         mascotUrl: 'assets/mascotes/mascote_redaction.png',
         shortDesc: 'Ferramenta de aprimoramento textual e correção automática focada em redações para o ENEM.',
-        longDesc: 'O Redaction é uma ferramenta de correção e aprimoramento textual baseada em processamento de linguagem natural (NLP), focada em redações para o ENEM. Oferece feedback instantâneo sobre gramática, coesão e argumentação.',
+        longDesc: 'O REDACTION é um app criado para facilitar o treino de redações do ENEM de um jeito leve, intuitivo e completo. Ele combina miniaulas rápidas, jogos de fixação e uma jornada gamificada que mantém o aluno praticando, enquanto um sistema de IA faz correções alinhadas aos critérios oficiais. Com recursos acessíveis, repertórios prontos e orientações claras, o app ajuda o estudante a entender melhor o que o ENEM pede e a aprimorar sua escrita de forma contínua.',
         projectLink: 'https://redaction.app',
         youtubeLink: 'https://youtube.com/watch?v=redaction_pitch',
         qrcodeUrl: 'assets/qrcodes/redaction_qr.png',
         team: [
-            { name: 'João Silva', role: 'Tech-Leader', photo: 'assets/team/joao.jpg' },
-            { name: 'Paula Oliveira', role: 'UX/UI Designer', photo: 'assets/team/paula.jpg' },
-            { name: 'Ricardo Costa', role: 'DevOps', photo: 'assets/team/ricardo.jpg' },
+            { name: 'Joaquim', role: 'Tech Lead e Programador Back-end', photo: 'sala/joaquim.jpg' },
+            { name: 'Pedro Roel', role: 'Programador Back-end', photo: 'sala/pedror.jpg' },
+            { name: 'Yasmim', role: 'Product Owner e Programadora Front-end', photo: 'sala/yasmim.jpg' },
+            { name: 'Mariana', role:'Scrum Master e Programadora Front-end', photo: 'sala/mariana.jpg' },
         ]
     },
     {
@@ -67,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
         youtubeLink: 'https://youtu.be/B-rJNl3w9Vc',
         qrcodeUrl: 'qrcode/qrPontoevirgula.png',
         team: [
-            { name: 'Heitor Schutz', role: 'TechLead', photo: 'sala/heitor.jpg' },
+            { name: 'Heitor Schutz', role: 'Tech Lead', photo: 'sala/heitor.jpg' },
             { name: 'Lígia Costa', role: 'Scrum Master', photo: 'sala/ligia.jpg' },
             { name: 'Paulo Henrique', role: 'Programador Front-end', photo: 'sala/paulo.jpg' },
             { name: 'Pedro Vitor', role: 'Programador Back-end', photo: 'sala/pedro.jfif' },
