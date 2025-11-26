@@ -132,14 +132,16 @@ document.addEventListener('DOMContentLoaded', () => {
         logoUrl: 'assets/logos/gramaticexplorer.png',
         mascotUrl: 'assets/mascotes/mascote_gramaticexplorer.png',
         shortDesc: 'Jogo interativo de RPG focado em ensinar regras gramaticais e ortografia do português.',
-        longDesc: 'Transforma o aprendizado de gramática em uma aventura de RPG, onde os estudantes progridem em fases ao resolverem desafios linguísticos. Aumenta o engajamento e facilita a memorização de regras complexas do português.',
+        longDesc: 'O GramaticXplorer é uma Edutech criada para transformar o aprendizado da Língua Portuguesa, focando em reverter o alto índice de reprovação em gramática e a falta de interesse juvenil. A plataforma simplifica conceitos complexos com uma abordagem gamificada e interativa. Assim, utilizando o poder da Inteligência Artificial (IA), a plataforma oferece um Chatbot 24h para tirar dúvidas instantaneamente e gera Relatórios de Desempenho Personalizados, Lições para a aprendizagem e Exercícios para fixação do conteúdo. Permitindo que o estudante aprenda no seu ritmo e maximize a eficácia do estudo. Nosso objetivo é democratizar o acesso ao ensino de qualidade, preparando jovens para o sucesso acadêmico e profissional com o domínio da comunicação.',
         projectLink: 'https://gramaticexplorer.game',
         youtubeLink: 'https://youtube.com/watch?v=gramaticexplorer_pitch',
         qrcodeUrl: 'assets/qrcodes/gramaticexplorer_qr.png',
         team: [
-            { name: 'Felipe Soares', role: 'Game Designer', photo: 'assets/team/felipe.jpg' },
-            { name: 'Giovanna Lee', role: 'Fullstack Dev', photo: 'assets/team/giovanna.jpg' },
-            { name: 'Henrique Mota', role: 'DevOps', photo: 'assets/team/henrique.jpg' },
+            { name: 'Gabriel', role: 'Tech Lead e Programador Back-end', photo: 'sala/camargo.jpg' },
+            { name: 'Maria Isabela', role: 'Product Owner e Programador Front-end', photo: 'sala/isa.jpg' },
+            { name: 'Juliano', role: 'Programador Back-end', photo: 'sala/juliano.jpg' },
+            { name: 'Julia', role: 'Scrum Master', photo: 'sala/jr.jfif' },
+            { name: 'Nicolas', role: 'Programador Back-end', photo: 'sala/nicolas.jpg' },
         ]
     },
     ];
