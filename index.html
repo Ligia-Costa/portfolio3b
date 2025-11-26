@@ -564,66 +564,75 @@
         <p class="text-gray-400 text-sm">Feito pela turma 3ºB DS.</p>
     </footer>
 
-    <div id="project-modal" class="hidden fixed inset-0 z-[100] bg-black/70 flex items-center justify-center p-4 transition-opacity duration-300">
+    <div id="project-modal" class="hidden fixed inset-0 z-[100] bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 transition-opacity duration-300">
     
-        <div id="modal-content" class="bg-white rounded-2xl max-w-5xl w-full p-6 md:p-10 relative shadow-2xl transform scale-95 opacity-0 transition-all duration-300 overflow-y-auto max-h-[95vh]">
+        <div id="modal-content" class="bg-white rounded-3xl max-w-6xl w-full shadow-2xl transform scale-95 opacity-0 transition-all duration-300 flex flex-col md:flex-row overflow-hidden max-h-[90vh] relative">
         
-            <button id="close-modal" class="absolute top-4 right-4 text-3xl text-gray-400 hover:text-gray-900 transition-colors z-10">
-                <i class="ph ph-x-circle"></i>
+            <button id="close-modal" class="absolute top-6 right-6 z-50 bg-gray-800 hover:bg-black text-white rounded-full w-10 h-10 flex items-center justify-center transition-all shadow-lg border-2 border-white">
+                <i class="ph ph-x text-xl"></i>
             </button>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-
-                <div class="md:col-span-2 flex flex-col">
-                    <div class="flex items-center gap-4 mb-4">
-                        <img id="modal-logo" src="placeholder-logo.png" alt="Logo do Projeto" class="w-10 h-10 md:w-12 md:h-12 rounded-lg object-cover border border-gray-100">
-                        <p class="text-xs font-mono text-gray-500 uppercase tracking-widest">Logo do Projeto</p>
+            <div class="w-full md:w-2/3 p-8 md:p-12 flex flex-col overflow-y-auto custom-scrollbar">
+                
+                <div>
+                    <div class="flex items-center gap-4 mb-2">
+                        <img id="modal-logo" src="" alt="Logo" class="w-12 h-12 object-contain">
+                        <span class="text-[10px] font-bold text-gray-400 uppercase tracking-[0.2em] font-sans">Logo do Projeto</span>
                     </div>
                     
-                    <h2 id="modal-title" class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Nome do Projeto</h2>
+                    <h2 id="modal-title" class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 mt-4 font-sans tracking-tight">Nome do Projeto</h2>
                     
-                    <p id="modal-description" class="text-base md:text-lg text-gray-600 leading-relaxed text-justify">
-                        O [Nome do Projeto] é uma plataforma web full-stack gamificada...
-                    </p>
-
-                    <div class="mt-8 flex flex-col md:flex-row items-end relative h-full">
-
-                        <div id="modal-mascot-container" class="hidden md:block absolute left-[-10%] bottom-[-10%] w-48 h-48 overflow-hidden">
-                            <img id="modal-mascot" src="mascote.png" alt="Mascote do Projeto" class="w-full h-auto object-cover transform scale-[1.2] translate-y-4">
-                        </div>
-
-                        <div class="w-full md:w-1/2 md:ml-auto p-0 md:p-4 md:pt-6 md:border-l border-brand-light md:pl-6 space-y-4 pt-4 border-t border-gray-200 md:border-t-0">
-                            <div class="flex flex-col">
-                                <h4 class="text-xs font-mono text-brand-purple mb-1">Link do Projeto</h4>
-                                <a id="modal-project-link" href="#" target="_blank" class="text-gray-700 hover:text-brand-dark transition-colors font-medium flex items-center gap-1">
-                                    <i class="ph ph-link text-lg"></i> Acessar Projeto
-                                </a>
-                            </div>
-                            <div class="flex flex-col">
-                                <h4 class="text-xs font-mono text-brand-purple mb-1">Vídeo no Youtube</h4>
-                                <a id="modal-youtube-link" href="#" target="_blank" class="text-gray-700 hover:text-brand-dark transition-colors font-medium flex items-center gap-1">
-                                    <i class="ph ph-youtube-logo text-lg text-red-600"></i> Ver Pitch
-                                </a>
-                            </div>
-                        </div>
+                    <div class="prose prose-lg text-gray-600 leading-relaxed text-justify mb-10">
+                        <p id="modal-description">Descrição...</p>
                     </div>
-
                 </div>
 
-                <div class="md:col-span-1 bg-gray-50 rounded-xl p-6 flex flex-col items-center border border-gray-100 w-full">
-                    
-                    <h3 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-200 pb-2 w-full text-center">Acesse o projeto</h3>
-                    
-                    <div id="modal-qrcode" class="w-32 h-32 md:w-40 md:h-40 bg-white p-2 rounded-lg mb-8 border border-gray-200">
-                        <p class="text-center text-xs text-gray-400">QR Code aqui</p>
+                <div class="flex flex-col md:flex-row items-end mt-auto gap-8 pt-8">
+                    <div class="w-40 md:w-48 -mb-12 relative z-10">
+                        <img id="modal-mascot" src="" alt="Mascote" class="w-full h-auto object-contain drop-shadow-xl">
                     </div>
-                    
-                    <h3 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-200 pb-2 w-full text-center">Equipe</h3>
-                    
-                    <div id="modal-team-members" class="space-y-4 w-full">
+
+                    <div class="flex flex-col gap-4 mb-4 border-l-2 border-gray-100 pl-6 pb-2">
+                        <div>
+                            <p class="text-[10px] font-bold text-brand-purple uppercase tracking-widest mb-1">Link do Projeto</p>
+                            <a id="modal-project-link" href="#" target="_blank" class="flex items-center gap-2 text-gray-700 font-bold hover:text-brand-purple transition-colors">
+                                <i class="ph ph-link text-lg"></i>
+                                <span>Acessar Projeto</span>
+                            </a>
                         </div>
+                        <div>
+                            <p class="text-[10px] font-bold text-brand-purple uppercase tracking-widest mb-1">Vídeo no Youtube</p>
+                            <a id="modal-youtube-link" href="#" target="_blank" class="flex items-center gap-2 text-gray-700 font-bold hover:text-red-600 transition-colors">
+                                <i class="ph ph-youtube-logo text-lg text-red-600"></i>
+                                <span>Ver Pitch</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <div class="w-full md:w-1/3 bg-gray-50 p-6 md:p-8 overflow-y-auto custom-scrollbar flex flex-col border-l border-gray-100">
+                
+                <div class="bg-white rounded-3xl shadow-sm border border-gray-200 p-6 w-full flex flex-col items-center h-auto min-h-min">
+                    
+                    <div class="text-center w-full mb-8">
+                        <h3 class="text-sm font-bold text-gray-900 mb-4">Acesse o projeto</h3>
+                        <div class="bg-gray-50 border border-gray-100 rounded-2xl p-3 inline-block">
+                            <div id="modal-qrcode" class="w-32 h-32 mix-blend-multiply">
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="w-full">
+                        <h3 class="text-sm font-bold text-gray-900 mb-5 text-center">Equipe</h3>
+                        <div id="modal-team-members" class="flex flex-col gap-4 w-full">
+                            </div>
+                    </div>
+
+                </div>
+                <div class="h-8 flex-shrink-0"></div>
+            </div>
+
         </div>
     </div>
     
