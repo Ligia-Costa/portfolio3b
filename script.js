@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 'ortofix',
             name: 'Ortofix',
             logoUrl: 'mascote/ortofix.png',
-            mascotUrl: 'mascotes/ortofix.png',
+            mascotUrl: 'mascote/ortofix.png',
             shortDesc: 'A plataforma inteligente para o sucesso de alunos e educadores, levando ao domínio da ortografia.',
             longDesc: 'O OrtoFix é uma edutech focada na Língua Portuguesa que auxilia os alunos do Ensino Médio a dominarem a ortografia, através de uma estrutura gamificada e interativa, em meio a uma era de gírias e abreviações. A plataforma utiliza Inteligência Artificial (IA) para oferecer suporte em tempo real e relatórios de progresso. Assim, os alunos maximizam a retenção e a eficácia do estudo, alcançando proficiência comunicativa para o sucesso acadêmico e profissional e os professores recebem resultados mais rápidos e significativos.',
             projectLink: 'https://ortofix-mvp.vercel.app/',
