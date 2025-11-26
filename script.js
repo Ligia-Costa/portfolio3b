@@ -97,15 +97,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 { name: 'Richard', role: 'Scrum Master', photo: 'sala/richard.png' },
                 { name: 'Maria Julia', role: 'Tech Lead', photo: 'sala/maju.jpg' },
                 { name: 'João Pedro', role: 'Front-End', photo: 'sala/jp.png' },
-                { name: 'Luis Felipe', role: 'Back-end', photo: 'sala/luisf.jpg' },
+                { name: 'Luis Felipe', role: 'Back-end', photo: 'sala/luisf.png' },
             ]
         },
         {
             id: 'fewit',
-            name: 'Fewit',
+            name: 'FEWIT',
             logoUrl: 'mascote/fewit.png', 
             mascotUrl: 'mascote/fewit.png', 
-            shortDesc: 'Fewit slogan aqui',
+            shortDesc: 'Desvende seus sentimentos!',
             longDesc: 'descrição do Fewit aqui',
             projectLink: 'https://fewit.vercel.app',
             youtubeLink: '#',
