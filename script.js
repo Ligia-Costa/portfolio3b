@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
             team: [
                 { name: 'Richard', role: 'Scrum Master e Programador Back-end', photo: 'sala/richard.png' },
                 { name: 'Maria Julia', role: 'Tech Lead e Programadora Front-end', photo: 'sala/maju.png' },
-                { name: 'João Pedro', role: 'Programador Front-End', photo: 'sala/jp.png' },
+                { name: 'João Pedro', role: 'Programador Front-End', photo: 'sala/joaop.png' },
                 { name: 'Luis Felipe', role: 'Programador Back-end', photo: 'sala/luisf.png' },
             ]
         },
