@@ -30,8 +30,10 @@ document.addEventListener('DOMContentLoaded', () => {
             youtubeLink: '#',
             qrcodeUrl: 'qrcode/qrPontoevirgula.png',
             team: [
-                { name: 'Ana Souza', role: 'Scrum Master', photo: 'sala/ana paula.jpg' },
-                { name: 'Douglas', role: 'Front-End', photo: 'sala/douglas.png' },
+                { name: 'Ana Paula', role: 'Scrum Master', photo: 'sala/ana paula.png' },
+                { name: 'Luis Gustavo', role: 'Front-End', photo: 'sala/luisg.png' },
+                { name: 'Pedro Henrique', role: 'Front-End', photo: 'sala/pedroh.png' },
+                { name: 'Thimotio', role: 'Programador Back-end', photo: 'sala/thimotio.png' },
             ]
         },
         {
@@ -39,16 +41,16 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'Redaction',
             logoUrl: 'mascote/Redaction.png',
             mascotUrl: 'mascote/Redaction.png',
-            shortDesc: 'Ferramenta de aprimoramento textual e correção automática focada em redações para o ENEM.',
+            shortDesc: 'A tecnologia que transforma sua escrita em aprendizado!',
             longDesc: 'O REDACTION é um app criado para facilitar o treino de redações do ENEM de um jeito leve, intuitivo e completo. Ele combina miniaulas rápidas, jogos de fixação e uma jornada gamificada que mantém o aluno praticando, enquanto um sistema de IA faz correções alinhadas aos critérios oficiais.',
             projectLink: 'https://redaction.app',
             youtubeLink: '#',
             qrcodeUrl: 'qrcode/qrPontoevirgula.png',
             team: [
-                { name: 'Joaquim', role: 'Tech Lead', photo: 'sala/joaquim.png' },
-                { name: 'Yasmim', role: 'Product Owner', photo: 'sala/yasmim.png' },
-                { name: 'Pedro Roel', role: 'Back-end', photo: 'sala/pedror.jpg' },
-                { name: 'Mariana', role: 'Front-end', photo: 'sala/mariana.jpg' },
+                { name: 'Joaquim', role: 'Tech Lead e Programador Back-end', photo: 'sala/joaquim.png' },
+                { name: 'Yasmim', role: 'Product Owner e Programadora Front-end', photo: 'sala/yasmim.png' },
+                { name: 'Pedro Roel', role: 'Programador Back-end', photo: 'sala/pedror.png' },
+                { name: 'Mariana', role: 'Scrum Master e Programadora Front-end', photo: 'sala/mariana.png' },
             ]
         },
         {
@@ -64,8 +66,8 @@ document.addEventListener('DOMContentLoaded', () => {
             team: [
                 { name: 'Heitor Schutz', role: 'Tech Lead', photo: 'sala/heitor.png' },
                 { name: 'Lígia Costa', role: 'Scrum Master', photo: 'sala/ligia.png' },
-                { name: 'Paulo Henrique', role: 'Front-end', photo: 'sala/paulo.jpg' },
-                { name: 'Pedro Vitor', role: 'Back-end', photo: 'sala/pedro.jfif' },
+                { name: 'Paulo Henrique', role: 'Programador Front-end', photo: 'sala/paulo.png' },
+                { name: 'Pedro Vitor', role: 'Programador Back-end', photo: 'sala/pedro.png' },
             ]
         },
         {
@@ -80,10 +82,10 @@ document.addEventListener('DOMContentLoaded', () => {
             qrcodeUrl: 'qrcode/qrOrtofix.png',
             team: [
                 { name: 'Sarah', role: 'Scrum Master', photo: 'sala/sarah.png' },
-                { name: 'Gabriel Alves', role: 'Tech Lead e Programador Back-end', photo: 'sala/alves.jpg' },
-                { name: 'Pietro', role: 'Programador Back-end', photo: 'sala/pietro.jpg' },
-                { name: 'Igor', role: 'Programador Front-end', photo: 'sala/igor.jpg' },
-                { name: 'Vinicius', role: 'Programador Back-end e DBA', photo: 'sala/vinicius.jfif' },
+                { name: 'Gabriel Alves', role: 'Tech Lead e Programador Back-end', photo: 'sala/alves.png' },
+                { name: 'Pietro', role: 'Programador Back-end', photo: 'sala/pietro.png' },
+                { name: 'Igor', role: 'Programador Front-end', photo: 'sala/igor.png' },
+                { name: 'Vinicius', role: 'Programador Back-end e DBA', photo: 'sala/vinicius.png' },
             ]
         },
         {
@@ -91,16 +93,16 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'MathMagic',
             logoUrl: 'mascote/mathmagic.png',
             mascotUrl: 'mascote/mathmagic.png',
-            shortDesc: 'Gerador inteligente de problemas matemáticos personalizados, com foco em raciocínio lógico.',
-            longDesc: 'O MathMagic é uma plataforma web full-stack gamificada, desenvolvida com o intuito de mitigar a desmotivação e as lacunas de aprendizado nas quatro operações matemáticas básicas no Ensino Fundamental.',
+            shortDesc: 'Transformando o aprendizado de Matemática em uma jornada mágica!',
+            longDesc: 'O MathMagic é uma plataforma web full-stack gamificada, desenvolvida com o intuito de mitigar a desmotivação e as lacunas de aprendizado nas quatro operações matemáticas básicas (Adição, Subtração, Multiplicação e Divisão) no Ensino Fundamental. O problema central reside na dificuldade dos educadores em obter um diagnóstico imediato e preciso do desempenho individual e coletivo dos alunos para a intervenção pedagógica eficaz. O objetivo do projeto foi conceber e implementar uma solução digital moderna que transformasse a prática matemática em uma jornada lúdica e engajadora. O público-alvo é tripartite: Alunos (usuários finais), Professores (gestores de salas e conteúdo) e Administradores (gestores de trilhas globais).',
             projectLink: 'https://mathmagic.tech',
             youtubeLink: '#',
-            qrcodeUrl: 'qrcode/qrPontoevirgula.png',
+            qrcodeUrl: 'qrcode/qrmathmagic.png',
             team: [
-                { name: 'Richard', role: 'Scrum Master', photo: 'sala/richard.png' },
-                { name: 'Maria Julia', role: 'Tech Lead', photo: 'sala/maju.jpg' },
-                { name: 'João Pedro', role: 'Front-End', photo: 'sala/jp.png' },
-                { name: 'Luis Felipe', role: 'Back-end', photo: 'sala/luisf.png' },
+                { name: 'Richard', role: 'Scrum Master e Programador Back-end', photo: 'sala/richard.png' },
+                { name: 'Maria Julia', role: 'Tech Lead e Programadora Front-end', photo: 'sala/maju.png' },
+                { name: 'João Pedro', role: 'Programador Front-End', photo: 'sala/jp.png' },
+                { name: 'Luis Felipe', role: 'Programador Back-end', photo: 'sala/luisf.png' },
             ]
         },
         {
@@ -114,23 +116,28 @@ document.addEventListener('DOMContentLoaded', () => {
             youtubeLink: '#',
             qrcodeUrl: 'qrcode/qrFewit.png',
             team: [
-                { name: 'Gabriel Camargo', role: 'Tech Lead', photo: 'sala/camargo.png' },
-                { name: 'Maria Isabela', role: 'Product Owner', photo: 'sala/isa.png' },
+                { name: 'Antonio', role: 'Programador Back-end', photo: 'sala/antonio.png' },
+                { name: 'Douglas', role: 'Scrum Master', photo: 'sala/douglas.png' },
+                { name: 'Manoela', role: 'Programadora Front-end', photo: 'sala/manu.png' },
+                { name: 'Matheus', role: 'Tech Lead', photo: 'sala/matheus.png' },
             ]
         },
         {
-            id: 'gramaticexplorer',
-            name: 'GramaticExplorer',
+            id: 'gramaticxplorer',
+            name: 'GramaticXplorer',
             logoUrl: 'mascote/GramaticXplorer.png', 
             mascotUrl: 'mascote/GramaticXplorer.png', 
             shortDesc: 'Jogo interativo de RPG focado em ensinar regras gramaticais e ortografia.',
-            longDesc: 'O GramaticXplorer é uma Edutech criada para transformar o aprendizado da Língua Portuguesa, focando em reverter o alto índice de reprovação em gramática e a falta de interesse juvenil.',
+            longDesc: 'O GramaticXplorer é uma Edutech criada para transformar o aprendizado da Língua Portuguesa, focando em reverter o alto índice de reprovação em gramática e a falta de interesse juvenil. A plataforma simplifica conceitos complexos com uma abordagem gamificada e interativa. Assim, utilizando o poder da Inteligência Artificial (IA), a plataforma oferece um Chatbot 24h para tirar dúvidas instantaneamente e gera Relatórios de Desempenho Personalizados, Lições para a aprendizagem e Exercícios para fixação do conteúdo. Permitindo que o estudante aprenda no seu ritmo e maximize a eficácia do estudo. Nosso objetivo é democratizar o acesso ao ensino de qualidade, preparando jovens para o sucesso acadêmico e profissional com o domínio da comunicação.',
             projectLink: 'https://gramaticexplorer.game',
             youtubeLink: '#',
-            qrcodeUrl: 'qrcode/qrPontoevirgula.png',
+            qrcodeUrl: 'qrcode/qrgramatic.png',
             team: [
-                { name: 'Gabriel Camargo', role: 'Tech Lead', photo: 'sala/camargo.png' },
-                { name: 'Maria Isabela', role: 'Product Owner', photo: 'sala/isa.png' },
+                { name: 'Gabriel Camargo', role: 'Tech Lead e Programador Back-end', photo: 'sala/camargo.png' },
+                { name: 'Julia', role: 'Scrum Master', photo: 'sala/jr.png' },
+                { name: 'Juliano', role: 'Programador Back-end', photo: 'sala/juliano.png' },
+                { name: 'Maria Isabela', role: 'Product Owner e Programadora Front-end', photo: 'sala/isa.png' },
+                { name: 'Nicolas', role: 'Programador Back-end', photo: 'sala/nicolas.png' },
             ]
         }
     ];
