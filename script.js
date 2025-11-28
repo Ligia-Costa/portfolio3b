@@ -200,7 +200,6 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('modal-youtube-link').href = project.youtubeLink;
         
         // Preenche Imagens
-        document.getElementById('modal-logo').src = project.logoUrl;
         document.getElementById('modal-mascot').src = project.mascotUrl;
         
         // Preenche QR Code
