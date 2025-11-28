@@ -25,15 +25,15 @@ document.addEventListener('DOMContentLoaded', () => {
             logoUrl: 'logo/RePensei.png', 
             mascotUrl: 'mascote/RePensei.png',
             shortDesc: 'A sua plataforma de estudos!',
-            longDesc: 'Plataforma inovadora que utiliza Inteligência Artificial para gerar trilhas de aprendizado personalizadas, ajudando estudantes do ensino médio a revisarem conteúdos específicos de forma engajadora e focada, minimizando lacunas de conhecimento.',
-            projectLink: 'https://repensei.com.br',
-            youtubeLink: '#',
-            qrcodeUrl: 'qrcode/qrPontoevirgula.png',
+            longDesc: 'A Repensei é uma plataforma desenvolvida para estudantes querendo ter um desempenho melhor nas matérias de Filosofia e Sociologia para ajuda-los em vestibulares. O problema inicial foi por conta das notas destas matérias nos vestibulares e como estava decaindo as notas tanto nos vestibulares quanto nas escolas. Nosso projeto contém dois planos, gratuito que contém flashcards e quizzes pré-definidos, o premium contém flashcards, quizzes, historicos de atividades, resumos, correção, chat-bot com implementação de IA. O sistema contém com uma pagina de admin aonde ele verá o desempenho dos usúario cadastradas com um historico de atividades podendo ver todo o progresso.',
+            projectLink: 'https://tcc-frontend-nine.vercel.app/',
+            youtubeLink: 'https://www.youtube.com/watch?v=GW9qj8n_Ga8',
+            qrcodeUrl: 'qrcode/qrRepensei.png',
             team: [
                 { name: 'Ana Paula', role: 'Scrum Master', photo: 'sala/ana paula.png' },
-                { name: 'Luis Gustavo', role: 'Front-End', photo: 'sala/luisg.png' },
-                { name: 'Pedro Henrique', role: 'Front-End', photo: 'sala/pedroh.png' },
-                { name: 'Thimotio', role: 'Programador Back-end', photo: 'sala/thimotio.png' },
+                { name: 'Luis Gustavo', role: 'Programador Front-End e Back-end', photo: 'sala/luisg.png' },
+                { name: 'Pedro Henrique', role: 'Programador Back-end', photo: 'sala/pedroh.png' },
+                { name: 'Thimotio', role: 'Tech Lead', photo: 'sala/thimotio.png' },
             ]
         },
         {
