@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             mascotUrl: 'mascote/RePensei.png',
             shortDesc: 'A sua plataforma de estudos!',
             longDesc: 'A Repensei é uma plataforma desenvolvida para estudantes querendo ter um desempenho melhor nas matérias de Filosofia e Sociologia para ajuda-los em vestibulares. O problema inicial foi por conta das notas destas matérias nos vestibulares e como estava decaindo as notas tanto nos vestibulares quanto nas escolas. Nosso projeto contém dois planos, gratuito que contém flashcards e quizzes pré-definidos, o premium contém flashcards, quizzes, historicos de atividades, resumos, correção, chat-bot com implementação de IA. O sistema contém com uma pagina de admin aonde ele verá o desempenho dos usúario cadastradas com um historico de atividades podendo ver todo o progresso.',
-            projectLink: 'https://tcc-frontend-nine.vercel.app/',
+            projectLink: 'https://repensei.onrender.com/',
             youtubeLink: 'https://www.youtube.com/watch?v=GW9qj8n_Ga8',
             qrcodeUrl: 'qrcode/qrRepensei.png',
             team: [
