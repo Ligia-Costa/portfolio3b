@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
             youtubeLink: '#',
             qrcodeUrl: 'qrcode/qrFewit.png',
             team: [
-                { name: 'Antonio', role: 'Programador Back-end', photo: 'sala/antonio.png' },
+                { name: 'Antonio', role: 'Programador Back-end', photo: 'sala/antonio.jpg' },
                 { name: 'Douglas', role: 'Scrum Master', photo: 'sala/douglas.png' },
                 { name: 'Manoela', role: 'Programadora Front-end', photo: 'sala/manu.png' },
                 { name: 'Matheus', role: 'Tech Lead', photo: 'sala/matheus.png' },
