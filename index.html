@@ -561,7 +561,7 @@
         <p class="font-mono mb-2">&lt; Desenvolvimento de Sistemas 2025 /&gt;</p>
         <p class="text-gray-400 text-sm">Feito pela turma 3ºB DS.</p>
     </footer>
-
+    
     <div id="project-modal" class="hidden fixed inset-0 z-[100] bg-black/70 flex items-center justify-center p-4 transition-opacity duration-300">
     
     <div id="modal-content" class="bg-white rounded-2xl max-w-5xl w-full p-6 md:p-10 relative shadow-2xl transform scale-95 opacity-0 transition-all duration-300 overflow-y-auto max-h-[95vh]">
@@ -573,12 +573,10 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
             <div class="md:col-span-2 flex flex-col">
-                <div class="flex items-center gap-4 mb-4">
-                    <img id="modal-logo" src="placeholder-logo.png" alt="Logo do Projeto" class="w-10 h-10 md:w-12 md:h-12 rounded-lg object-cover border border-gray-100">
-                    <p class="text-xs font-mono text-gray-500 uppercase tracking-widest">Logo do Projeto</p>
-                </div>
                 
-                <h2 id="modal-title" class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Nome do Projeto</h2>
+                <div id="modal-horizontal-logo-container" class="mb-6 md:mb-8 w-full">
+                    <img id="modal-logo-horizontal" src="placeholder-horizontal-logo.png" alt="Logo Horizontal do Projeto" class="w-auto max-w-full max-h-16 md:max-h-20 object-contain mx-auto md:mx-0">
+                </div>
                 
                 <p id="modal-description" class="text-base md:text-lg text-gray-600 leading-relaxed text-justify">
                     O [Nome do Projeto] é uma plataforma web full-stack gamificada...
@@ -586,8 +584,8 @@
 
                 <div class="mt-8 flex flex-col md:flex-row items-end relative h-full">
 
-                    <div id="modal-mascot-container" class="hidden md:block absolute left-[-10%] bottom-[-10%] w-48 h-48 overflow-hidden">
-                        <img id="modal-mascot" src="mascote.png" alt="Mascote do Projeto" class="w-full h-auto object-cover transform scale-[1.2] translate-y-4">
+                    <div id="modal-mascot-container" class="hidden md:block absolute left-[-8%] bottom-[-5%] w-56 h-full overflow-hidden">
+                        <img id="modal-mascot" src="mascote.png" alt="Mascote do Projeto" class="w-full h-full object-contain transform translate-y-0">
                     </div>
 
                     <div class="w-full md:w-1/2 md:ml-auto p-0 md:p-4 md:pt-6 md:border-l border-brand-light md:pl-6 space-y-4 pt-4 border-t border-gray-200 md:border-t-0">

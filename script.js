@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 'repensei',
             name: 'RePensei',
-            logoUrl: 'mascote/RePensei.png', 
+            logoUrl: 'logo/RePensei.png', 
             mascotUrl: 'mascote/RePensei.png',
             shortDesc: 'A sua plataforma de estudos!',
             longDesc: 'Plataforma inovadora que utiliza Inteligência Artificial para gerar trilhas de aprendizado personalizadas, ajudando estudantes do ensino médio a revisarem conteúdos específicos de forma engajadora e focada, minimizando lacunas de conhecimento.',
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 'redaction',
             name: 'Redaction',
-            logoUrl: 'mascote/Redaction.png',
+            logoUrl: 'logo/Redaction.png',
             mascotUrl: 'mascote/Redaction.png',
             shortDesc: 'A tecnologia que transforma sua escrita em aprendizado!',
             longDesc: 'O REDACTION é um app criado para facilitar o treino de redações do ENEM de um jeito leve, intuitivo e completo. Ele combina miniaulas rápidas, jogos de fixação e uma jornada gamificada que mantém o aluno praticando, enquanto um sistema de IA faz correções alinhadas aos critérios oficiais.',
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 'pontovirgula',
             name: 'Ponto&Vírgula',
-            logoUrl: 'mascote/Ponto&Vírgula.png',
+            logoUrl: 'logo/Ponto&Vírgula.png',
             mascotUrl: 'mascote/Ponto&Vírgula.png',
             shortDesc: 'A vírgula que faz a diferença!',
             longDesc: 'O Ponto&Vírgula é um sistema EduTech que utiliza avaliações diagnósticas inteligentes e geração de conteúdo por IA para oferecer trilhas de aprendizagem personalizadas em Língua Portuguesa e Matemática aos estudantes dos anos finais de cada etapa. A plataforma registra o aluno, aplica uma avaliação inicial e recomenda conteúdos de revisão ou avanço conforme o desempenho, apresentados em uma interface moderna desenvolvida em React, Tailwind e TypeScript, com backend em Flask e banco de dados MySQL. Além disso, o sistema dispõe de um painel para professores, atualizado em tempo real, permitindo acompanhar o progresso da turma e orientar intervenções pedagógicas mais precisas.',
@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 'ortofix',
             name: 'Ortofix',
-            logoUrl: 'mascote/ortofix.png',
+            logoUrl: 'logo/ortofix.png',
             mascotUrl: 'mascote/ortofix.png',
             shortDesc: 'A plataforma inteligente para o sucesso de alunos e educadores, levando ao domínio da ortografia.',
             longDesc: 'O OrtoFix é uma edutech focada na Língua Portuguesa que auxilia os alunos do Ensino Médio a dominarem a ortografia, através de uma estrutura gamificada e interativa, em meio a uma era de gírias e abreviações. A plataforma utiliza Inteligência Artificial (IA) para oferecer suporte em tempo real e relatórios de progresso. Assim, os alunos maximizam a retenção e a eficácia do estudo, alcançando proficiência comunicativa para o sucesso acadêmico e profissional e os professores recebem resultados mais rápidos e significativos.',
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 'mathmagic',
             name: 'MathMagic',
-            logoUrl: 'mascote/mathmagic.png',
+            logoUrl: 'logo/mathmagic.png',
             mascotUrl: 'mascote/mathmagic.png',
             shortDesc: 'Transformando o aprendizado de Matemática em uma jornada mágica!',
             longDesc: 'O MathMagic é uma plataforma web full-stack gamificada, desenvolvida com o intuito de mitigar a desmotivação e as lacunas de aprendizado nas quatro operações matemáticas básicas (Adição, Subtração, Multiplicação e Divisão) no Ensino Fundamental. O problema central reside na dificuldade dos educadores em obter um diagnóstico imediato e preciso do desempenho individual e coletivo dos alunos para a intervenção pedagógica eficaz. O objetivo do projeto foi conceber e implementar uma solução digital moderna que transformasse a prática matemática em uma jornada lúdica e engajadora. O público-alvo é tripartite: Alunos (usuários finais), Professores (gestores de salas e conteúdo) e Administradores (gestores de trilhas globais).',
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 'fewit',
             name: 'FEWIT',
-            logoUrl: 'mascote/fewit.png', 
+            logoUrl: 'logo/fewit.png', 
             mascotUrl: 'mascote/fewit.png', 
             shortDesc: 'Desvende seus sentimentos!',
             longDesc: 'descrição do Fewit aqui',
@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 'gramaticxplorer',
             name: 'GramaticXplorer',
-            logoUrl: 'mascote/GramaticXplorer.png', 
+            logoUrl: 'logo/GramaticXplorer.png', 
             mascotUrl: 'mascote/GramaticXplorer.png', 
             shortDesc: 'Quando a educação inova!',
             longDesc: 'O GramaticXplorer é uma Edutech criada para transformar o aprendizado da Língua Portuguesa, focando em reverter o alto índice de reprovação em gramática e a falta de interesse juvenil. A plataforma simplifica conceitos complexos com uma abordagem gamificada e interativa. Assim, utilizando o poder da Inteligência Artificial (IA), a plataforma oferece um Chatbot 24h para tirar dúvidas instantaneamente e gera Relatórios de Desempenho Personalizados, Lições para a aprendizagem e Exercícios para fixação do conteúdo. Permitindo que o estudante aprenda no seu ritmo e maximize a eficácia do estudo. Nosso objetivo é democratizar o acesso ao ensino de qualidade, preparando jovens para o sucesso acadêmico e profissional com o domínio da comunicação.',
@@ -187,12 +187,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalContent = document.getElementById('modal-content');
     const teamMembersContainer = document.getElementById('modal-team-members');
 
+
     function openModal(projectId) {
         const project = projectsData.find(p => p.id === projectId);
         if (!project) return;
 
         // Preenche Textos
-        document.getElementById('modal-title').textContent = project.name;
         document.getElementById('modal-description').textContent = project.longDesc;
         
         // Preenche Links
@@ -200,7 +200,8 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('modal-youtube-link').href = project.youtubeLink;
         
         // Preenche Imagens
-        document.getElementById('modal-logo').src = project.logoUrl;
+        // NOVO: Usa o ID da logo horizontal
+        document.getElementById('modal-logo-horizontal').src = project.logoUrl; 
         document.getElementById('modal-mascot').src = project.mascotUrl;
         
         // Preenche QR Code
@@ -208,33 +209,34 @@ document.addEventListener('DOMContentLoaded', () => {
         // REMOVIDO O 'p-2' para que a imagem ocupe 100% do container
         qrContainer.innerHTML = `<img src="${project.qrcodeUrl}" alt="QR Code" class="w-full h-full object-contain">`;
 
-        // Preenche Equipe (Estilo Lista Vertical Limpa)
+        // Preenche Equipe (Modificado para expandir a função/role)
         teamMembersContainer.innerHTML = '';
         project.team.forEach(member => {
             const memberCard = document.createElement('div');
-            memberCard.className = 'flex items-center gap-4 bg-white p-3 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-all';
+            // Usando items-start para suportar múltiplos cargos em duas linhas (expansão do card)
+            memberCard.className = 'flex items-start gap-4 bg-white p-3 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-all';
             
             memberCard.innerHTML = `
                 <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-white shadow-sm flex-shrink-0 bg-gray-100">
-                    <img src="${member.photo}" alt="${member.name}" class="w-full h-full object-cover">
+                <img src="${member.photo}" alt="${member.name}" class="w-full h-full object-cover">
                 </div>
-                <div class="text-left overflow-hidden">
-                    <h4 class="font-bold text-gray-900 text-sm leading-tight truncate">${member.name}</h4>
-                    <p class="text-xs text-brand-purple font-bold uppercase tracking-wide mt-0.5 truncate">${member.role}</p>
+                <div class="text-left">
+                <h4 class="font-bold text-gray-900 text-sm leading-tight">${member.name}</h4>
+                    <p class="text-xs text-brand-purple font-bold uppercase tracking-wide mt-0.5">${member.role}</p>
                 </div>
             `;
             teamMembersContainer.appendChild(memberCard);
         });
 
-        // Mostrar Modal
-        modal.classList.remove('hidden');
-        document.body.style.overflow = 'hidden'; // Trava o scroll da página
-        
-        // Animação suave de entrada
-        setTimeout(() => {
-            modal.classList.remove('opacity-0');
-            modalContent.classList.remove('scale-95', 'opacity-0');
-            modalContent.classList.add('scale-100', 'opacity-100');
+    // Mostrar Modal
+    modal.classList.remove('hidden');
+    document.body.style.overflow = 'hidden'; // Trava o scroll da página
+    
+    // Animação suave de entrada
+    setTimeout(() => {
+        modal.classList.remove('opacity-0');
+        modalContent.classList.remove('scale-95', 'opacity-0');
+        modalContent.classList.add('scale-100', 'opacity-100');
         }, 10);
     }
 
