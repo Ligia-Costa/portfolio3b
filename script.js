@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
             shortDesc: 'A tecnologia que transforma sua escrita em aprendizado!',
             longDesc: 'O REDACTION é um app criado para facilitar o treino de redações do ENEM de um jeito leve, intuitivo e completo. Ele combina miniaulas rápidas, jogos de fixação e uma jornada gamificada que mantém o aluno praticando, enquanto um sistema de IA faz correções alinhadas aos critérios oficiais. Com recursos acessíveis, repertórios prontos e orientações claras, o app ajuda o estudante a entender melhor o que o ENEM pede e a aprimorar sua escrita de forma contínua.',
             projectLink: 'https://redaction-senai.vercel.app',
-            youtubeLink: 'https://youtu.be/',
+            youtubeLink: '#',
             qrcodeUrl: 'qrcode/qrRedaction.png',
             team: [
                 { name: 'Joaquim', role: 'Tech Lead e Programador Back-end', photo: 'sala/joaquim.png' },
@@ -112,8 +112,8 @@ document.addEventListener('DOMContentLoaded', () => {
             mascotUrl: 'mascote/fewit.png', 
             shortDesc: 'Desvende seus sentimentos!',
             longDesc: 'A Fewit é uma aplicação web criada para ajudar pessoas a compreender melhor seus próprios sentimentos. A plataforma identifica emoções por meio da interação com o usuário, explica de forma simples o que cada sentimento significa e, oferece orientações e recomendações apoiadas por IA para lidar com emoções negativas ou intensas. O objetivo é fornecer suporte emocional acessível, imediato e confiável, funcionando como um primeiro passo para o autoconhecimento e para o cuidado com a saúde mental. O público-alvo inclui jovens e adultos que desejam entender melhor suas emoções e desenvolver inteligência emocional no dia a dia.',
-            projectLink: 'https://fewit.vercel.app',
-            youtubeLink: '#',
+            projectLink: '#',
+            youtubeLink: 'https://www.youtube.com/watch?v=lXoYfnCO6Gc',
             qrcodeUrl: 'qrcode/qrFewit.png',
             team: [
                 { name: 'Antonio', role: 'Programador Back-end', photo: 'sala/antonio.jpg' },
