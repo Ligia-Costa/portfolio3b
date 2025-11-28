@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
             mascotUrl: 'mascote/GramaticXplorer.png', 
             shortDesc: 'Quando a educação inova!',
             longDesc: 'O GramaticXplorer é uma Edutech criada para transformar o aprendizado da Língua Portuguesa, focando em reverter o alto índice de reprovação em gramática e a falta de interesse juvenil. A plataforma simplifica conceitos complexos com uma abordagem gamificada e interativa. Assim, utilizando o poder da Inteligência Artificial (IA), a plataforma oferece um Chatbot 24h para tirar dúvidas instantaneamente e gera Relatórios de Desempenho Personalizados, Lições para a aprendizagem e Exercícios para fixação do conteúdo. Permitindo que o estudante aprenda no seu ritmo e maximize a eficácia do estudo. Nosso objetivo é democratizar o acesso ao ensino de qualidade, preparando jovens para o sucesso acadêmico e profissional com o domínio da comunicação.',
-            projectLink: 'https://gramaticexplorer.vercel.app',
+            projectLink: 'https://gramaticxplorer.vercel.app',
             youtubeLink: '#',
             qrcodeUrl: 'qrcode/qrGramatic.png',
             team: [
