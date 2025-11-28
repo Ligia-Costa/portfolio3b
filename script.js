@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
             logoUrl: 'logo/Redaction.png',
             mascotUrl: 'mascote/Redaction.png',
             shortDesc: 'A tecnologia que transforma sua escrita em aprendizado!',
-            longDesc: 'O REDACTION é um app criado para facilitar o treino de redações do ENEM de um jeito leve, intuitivo e completo. Ele combina miniaulas rápidas, jogos de fixação e uma jornada gamificada que mantém o aluno praticando, enquanto um sistema de IA faz correções alinhadas aos critérios oficiais.',
+            longDesc: 'O REDACTION é um app criado para facilitar o treino de redações do ENEM de um jeito leve, intuitivo e completo. Ele combina miniaulas rápidas, jogos de fixação e uma jornada gamificada que mantém o aluno praticando, enquanto um sistema de IA faz correções alinhadas aos critérios oficiais. Com recursos acessíveis, repertórios prontos e orientações claras, o app ajuda o estudante a entender melhor o que o ENEM pede e a aprimorar sua escrita de forma contínua.',
             projectLink: 'https://redaction-senai.vercel.app',
             youtubeLink: 'https://youtu.be/',
             qrcodeUrl: 'qrcode/qrRedaction.png',
