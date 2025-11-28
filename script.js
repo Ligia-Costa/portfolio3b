@@ -200,8 +200,8 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('modal-youtube-link').href = project.youtubeLink;
         
         // Preenche Imagens
-        // NOVO: Usa o ID da logo horizontal
-        document.getElementById('modal-logo-horizontal').src = project.logoUrl; 
+        // ✅ CORRIGIDO: Usando 'modal-logo' que existe no HTML atual
+        document.getElementById('modal-logo').src = project.logoUrl; 
         document.getElementById('modal-mascot').src = project.mascotUrl;
         
         // Preenche QR Code
@@ -228,16 +228,16 @@ document.addEventListener('DOMContentLoaded', () => {
             teamMembersContainer.appendChild(memberCard);
         });
 
-    // Mostrar Modal
-    modal.classList.remove('hidden');
-    document.body.style.overflow = 'hidden'; // Trava o scroll da página
-    
-    // Animação suave de entrada
-    setTimeout(() => {
-        modal.classList.remove('opacity-0');
-        modalContent.classList.remove('scale-95', 'opacity-0');
-        modalContent.classList.add('scale-100', 'opacity-100');
-        }, 10);
+        // Mostrar Modal
+        modal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden'; // Trava o scroll da página
+        
+        // Animação suave de entrada
+        setTimeout(() => {
+            modal.classList.remove('opacity-0');
+            modalContent.classList.remove('scale-95', 'opacity-0');
+            modalContent.classList.add('scale-100', 'opacity-100');
+            }, 10);
     }
 
     function closeProjectModal() {
