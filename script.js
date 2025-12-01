@@ -95,9 +95,9 @@ document.addEventListener('DOMContentLoaded', () => {
             mascotUrl: 'mascote/mathmagic.png',
             shortDesc: 'Transformando o aprendizado de Matemática em uma jornada mágica!',
             longDesc: 'O MathMagic é uma plataforma web full-stack gamificada, desenvolvida com o intuito de mitigar a desmotivação e as lacunas de aprendizado nas quatro operações matemáticas básicas (Adição, Subtração, Multiplicação e Divisão) no Ensino Fundamental. O problema central reside na dificuldade dos educadores em obter um diagnóstico imediato e preciso do desempenho individual e coletivo dos alunos para a intervenção pedagógica eficaz. O objetivo do projeto foi conceber e implementar uma solução digital moderna que transformasse a prática matemática em uma jornada lúdica e engajadora. O público-alvo é tripartite: Alunos (usuários finais), Professores (gestores de salas e conteúdo) e Administradores (gestores de trilhas globais).',
-            projectLink: 'https://mathmagic.tech',
+            projectLink: 'frontend-mathmagic.vercel.app',
             youtubeLink: '#',
-            qrcodeUrl: 'qrcode/qrmathmagic.png',
+            qrcodeUrl: 'qrcode/qrMathmagic.png',
             team: [
                 { name: 'Richard', role: 'Scrum Master e Programador Back-end', photo: 'sala/richard.png' },
                 { name: 'Maria Julia', role: 'Tech Lead e Programadora Front-end', photo: 'sala/maju.png' },
