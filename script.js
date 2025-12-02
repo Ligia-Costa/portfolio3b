@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
             mascotUrl: 'mascote/fewit.png', 
             shortDesc: 'Desvende seus sentimentos!',
             longDesc: 'A Fewit é uma aplicação web criada para ajudar pessoas a compreender melhor seus próprios sentimentos. A plataforma identifica emoções por meio da interação com o usuário, explica de forma simples o que cada sentimento significa e, oferece orientações e recomendações apoiadas por IA para lidar com emoções negativas ou intensas. O objetivo é fornecer suporte emocional acessível, imediato e confiável, funcionando como um primeiro passo para o autoconhecimento e para o cuidado com a saúde mental. O público-alvo inclui jovens e adultos que desejam entender melhor suas emoções e desenvolver inteligência emocional no dia a dia.',
-            projectLink: '#',
+            projectLink: 'https://landingpage-tcc-iygk.vercel.app/',
             youtubeLink: 'https://www.youtube.com/watch?v=lXoYfnCO6Gc',
             qrcodeUrl: 'qrcode/qrFewit.png',
             team: [
